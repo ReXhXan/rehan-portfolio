@@ -1,0 +1,24 @@
+# Rehan Khan
+
+> AI Systems Architect | Agentic Orchestration & MCP-driven Ecosystems | Quant-Optimized Intelligence
+
+Rehan Khan is a third-year (5th semester) B.Tech CSE (AI/ML) student at Centurion University of Technology and Management (Sep 2024 - Aug 2028, CGPA 8.87), based in Bhubaneswar, Odisha, India, and Co-Founder of NAVANTA.IO. He is exploring Quantum Computing, Liquid Neural Networks, Edge AI and IoT.
+
+## Projects
+- [RAG Docs Chat](https://github.com/ReXhXan/rag-docs-chat): production-style chat-with-your-documents RAG system with cited answers
+- [Smart NFC Card](https://github.com/ReXhXan/smart-nfc-card): AI-powered NFC/QR digital business card with visitor chatbot and tap analytics
+- [Self-Testing Code Assistant](https://github.com/ReXhXan/self-testing-code-assistant): coding agent that writes tests, runs them in a sandbox and repairs its code
+- [Jarvis Agent](https://github.com/ReXhXan/jarvis-agent): personal AI agent with an MCP-style tool registry, memory and reminders
+
+## Skills
+Python, FastAPI, Pydantic, Streamlit, pytest, RAG, LLMs (OpenAI/Groq/Ollama), embeddings, ChromaDB, AI agents/tool calling, MCP-style tool registries, SQLite, Docker, Git
+
+## Education
+- Centurion University of Technology and Management — B.Tech CSE (AI/ML), 2024-2028, CGPA 8.87
+- Kendriya Vidyalaya — PCMB, 2020-2022, 80.2%; Silver Medal, SOF Olympiad
+
+## Contact
+- Email: rehanrazzakhan123456@gmail.com
+- LinkedIn: https://www.linkedin.com/in/rehan-ab236b28a
+- GitHub: https://github.com/ReXhXan
+- Resume: /Rehan_Khan_CV.pdf
