@@ -1,0 +1,44 @@
+{
+  "name": "rehan-khan-portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@react-three/drei": "^10.7.7",
+    "@react-three/fiber": "^9.6.1",
+    "@react-three/postprocessing": "^3.0.4",
+    "framer-motion": "^12.38.0",
+    "gsap": "^3.15.0",
+    "lenis": "^1.3.23",
+    "maath": "^0.10.8",
+    "motion": "^12.38.0",
+    "next": "^15.0.0",
+    "ogl": "^1.0.11",
+    "postprocessing": "^6.39.1",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "react-icons": "^5.6.0",
+    "sharp": "^0.33.5",
+    "three": "^0.184.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "critters": "^0.0.23",
+    "eslint": "^9",
+    "eslint-config-next": "^15.0.0",
+    "tailwindcss": "^4"
+  },
+  "browserslist": [
+    "last 2 Chrome versions",
+    "last 2 Firefox versions",
+    "last 2 Safari versions",
+    "last 2 Edge versions",
+    "not dead",
+    "not IE 11"
+  ]
+}
