@@ -1,6 +1,5 @@
 import PageShell from "@/components/PageShell";
-import Contact from "@/components/Contact";
-import Footer from "@/components/Footer";
+import ContactPage from "@/views/contact";
 
 export const metadata = {
   title: "Contact",
@@ -11,8 +10,7 @@ export const metadata = {
 export default function Page() {
   return (
     <PageShell>
-      <div className="pt-16"><Contact /></div>
-      <Footer />
+      <ContactPage />
     </PageShell>
   );
 }

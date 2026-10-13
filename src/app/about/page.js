@@ -1,6 +1,5 @@
 import PageShell from "@/components/PageShell";
-import About from "@/components/About";
-import Footer from "@/components/Footer";
+import AboutPage from "@/views/about";
 
 export const metadata = {
   title: "About",
@@ -12,8 +11,7 @@ export default function Page() {
   return (
     <PageShell>
       <style>{`.bottom-blur { display: none !important; }`}</style>
-      <About standalone />
-      <Footer />
+      <AboutPage />
     </PageShell>
   );
 }

@@ -6,11 +6,13 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
 
+import dynamic from "next/dynamic";
 import Cursor from "../components/Cursor";
 import Navbar from "../components/Navbar";
+const VideoScrub = dynamic(() => import("../components/VideoScrub"), { ssr: false });
 import Hero from "../components/Hero";
 import About from "../components/About";
-import ProjectsSection from "../components/ProjectsSection";
+import Work from "../components/Work";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 
@@ -56,8 +58,8 @@ export default function Home() {
       {/* difference cursor */}
       <Cursor />
 
-      {/* ambient background (replaces the template's personal scroll video) */}
-      <div aria-hidden="true" className="fixed inset-0 z-0 pointer-events-none" style={{ background: "radial-gradient(ellipse at 75% 20%, rgba(255,107,26,0.28), transparent 55%), radial-gradient(ellipse at 10% 90%, rgba(255,107,26,0.12), transparent 50%), #080808" }} />
+      {/* sticky scrubbed video — lives behind everything */}
+      <VideoScrub />
 
       {/* scroll progress indicator */}
 
@@ -71,7 +73,7 @@ export default function Home() {
       <div className="relative z-10">
         <Hero />
         <About />
-        <ProjectsSection />
+        <Work />
         <Contact />
         <div ref={footerRef}><Footer /></div>
       </div>

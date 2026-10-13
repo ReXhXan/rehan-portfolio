@@ -1,6 +1,7 @@
-import PageShell from "@/components/PageShell";
-import ProjectsSection from "@/components/ProjectsSection";
-import Footer from "@/components/Footer";
+import { Suspense } from "react";
+import Cursor from "../../components/Cursor";
+import Navbar from "../../components/Navbar";
+import ProjectsPage from "../../views/projects";
 
 export const metadata = {
   title: "Projects",
@@ -10,9 +11,15 @@ export const metadata = {
 
 export default function Page() {
   return (
-    <PageShell>
-      <ProjectsSection standalone />
-      <Footer />
-    </PageShell>
+    <main>
+      <div className="grain-overlay" />
+      <Cursor />
+      <Navbar />
+      <div className="relative z-10">
+        <Suspense fallback={<div className="min-h-screen bg-[#060606]" />}>
+          <ProjectsPage />
+        </Suspense>
+      </div>
+    </main>
   );
 }
